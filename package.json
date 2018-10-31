@@ -1,6 +1,6 @@
 {
   "name": "vue-luna",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "基于Echarts的Vue组件依赖关系分析工具",
   "main": "index.js",
   "bin": {"luna": "./index.js"},
@@ -12,6 +12,14 @@
   "dependencies": {
     "express": "^4.16.4",
     "open": "^0.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xiaoSais/vue-luna.git"
+  },
+  "homepage": "https://github.com/xiaoSais/vue-luna",
+  "bugs": {
+    "url": "https://github.com/xiaoSais/vue-luna/issues"
   },
   "__npminstall_done": "Mon Oct 29 2018 14:29:40 GMT+0800 (中国标准时间)",
   "_from": "vue-luna@1.0.0",
