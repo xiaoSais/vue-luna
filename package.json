@@ -1,0 +1,19 @@
+{
+  "name": "vue-luna",
+  "version": "1.0.5",
+  "description": "基于Echarts的Vue组件依赖关系分析工具",
+  "main": "index.js",
+  "bin": {"luna": "./index.js"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sai.shi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "open": "^0.0.5"
+  },
+  "__npminstall_done": "Mon Oct 29 2018 14:29:40 GMT+0800 (中国标准时间)",
+  "_from": "vue-luna@1.0.0",
+  "_resolved": "http://registry.npm.taobao.org/vue-luna/download/vue-luna-1.0.0.tgz"
+}
