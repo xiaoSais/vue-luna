@@ -3,13 +3,16 @@
   "version": "1.0.6",
   "description": "基于Echarts的Vue组件依赖关系分析工具",
   "main": "index.js",
-  "bin": {"luna": "./index.js"},
+  "bin": {
+    "luna": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "sai.shi",
   "license": "ISC",
   "dependencies": {
+    "acorn": "^6.0.3",
     "express": "^4.16.4",
     "open": "^0.0.5"
   },
