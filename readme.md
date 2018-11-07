@@ -18,7 +18,7 @@
 
 ## Notice
 
-### 支持的组件引入方式
+### Support
 
 * 在组件内通过import引入（加后缀名）
   ```
@@ -43,7 +43,7 @@
   import A from './components/BB.vue'
   ```
 
-### 不支持的组件引入方式
+### Unsupport
 
 很遗憾Luna暂时不支持 webpack alias 解析模块，因此下面的引入方式Luna是无法识别的：
 ```
