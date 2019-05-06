@@ -1,5 +1,5 @@
 # vue-luna
-一个基于Echats的Vue组件间依赖关系分析工具
+一个基于Echarts的Vue组件间依赖关系分析工具
 
 ## Install
 
