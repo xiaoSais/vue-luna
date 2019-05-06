@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const express = require('express')
 const app = express()
-const Luna = require('./lib/core')
+const Luna = require('./lib')
 const open = require('open')
 const ln = new Luna('src')
 const path = require('path')
@@ -14,9 +14,10 @@ app.get('/getData', (req, res) => {
   if(result.pages) {
     res.send(result)
   } else {
-    ln.getTree().then(rs => {
+    ln.getResult().then(rs => {
       res.send(rs)
-      result= rs;
+      console.log(rs.all.length)
+      result = rs;
     })
   }
 })

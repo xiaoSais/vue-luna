@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "acorn": "^6.0.3",
+    "acorn-walk": "^6.1.1",
     "express": "^4.16.4",
     "open": "^0.0.5"
   },
